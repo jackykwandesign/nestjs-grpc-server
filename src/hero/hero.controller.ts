@@ -10,7 +10,8 @@ import { HeroById } from './interfaces/hero-by-id.interface';
 import { Hero } from './interfaces/hero.interface';
 import { Observable, Subject } from 'rxjs';
 
-// @Controller('hero')
+// https://www.youtube.com/watch?v=OuyxRE9xLw4
+// https://wanago.io/2020/11/30/api-nestjs-microservices-grpc-framework/
 @Controller()
 export class HeroesService {
 
